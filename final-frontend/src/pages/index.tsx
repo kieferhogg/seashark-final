@@ -95,8 +95,8 @@ function App() {
           });
         }}
       >
-        <input type="text" name="name" />
-        <input type="text" name="description" />
+        <input type="number" name="name" />
+        <input type="number" name="description" />
         <button type="submit">Create</button>
       </form>
 
