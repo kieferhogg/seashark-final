@@ -1,11 +1,11 @@
 export type Product = {
-  id: number;
+  id?: number;
   name: string;
   description: string;
 };
 
 export type Order = {
-  id: number;
+  id?: number;
   quantity: number;
   productID: number;
 };
